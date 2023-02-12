@@ -1,0 +1,104 @@
+body{
+    font-size: 14px;
+    line-height: 20px;
+    font-family:'Trebuchet MS', sans-serif;
+    background-image: url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#main {
+    width: 920px;
+    background-color: #fff;
+    position: relative;
+    left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+#Encabezado {
+    background-image: url(../Images/banner.jpg);
+    background-size: 100% 100%;
+    width: 880px;
+    height: 250px;
+    color:  #76d100;
+    text-align: left;
+    margin-top: 5px;
+}
+#mainTitle {
+    position: relative;
+    top: 38px;
+    left: 55px;
+    font-size: 55px;
+}
+#BarraLinks {
+    padding-top: 10px;
+    background-color: #488000;
+    background-size: 100% 100%;
+    width: 880px;
+    height: 35px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+#BarraLinks a.last{
+    border-right: 0px;
+}
+
+
+
+h2 {
+    color: #488000;
+}
+#arbol {
+    float: left;
+}
+#news {
+    float: left;
+    max-width: 200px;
+    margin: 0%;
+}
+#relevant {
+    float: left;
+    max-width: 200px;
+    margin: 0%;
+    position: absolute;
+    bottom: 29px;
+    right: 690px;
+}
+
+
+#ArticuloPrincipal {
+    float: right;
+    max-width: 600px;
+    margin: 0%;
+    padding-bottom: 20px;
+}
+#fancybox {
+    float: left;
+    max-width: 210px;
+}
+#ParrafoSecundario {
+    float: right;
+    max-width: 380px;
+}
+
+
+
+#PiePagina {
+    width: 880px;
+    height: 35px;
+    background-color: #488000;
+    color: #FFF;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
