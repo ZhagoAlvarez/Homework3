@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-size: 14px;
     line-height: 20px;
@@ -9,9 +12,10 @@ body{
 }
 #main {
     width: 920px;
-    background-color: #fff;
     position: relative;
-    left: 300px;
+    margin: 10px auto;
+
+    background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -29,12 +33,12 @@ body{
 }
 #mainTitle {
     position: relative;
-    top: 38px;
+    top: 34px;
     left: 55px;
     font-size: 55px;
 }
 #BarraLinks {
-    padding-top: 10px;
+    padding-top: 5px;
     background-color: #488000;
     background-size: 100% 100%;
     width: 880px;
@@ -69,7 +73,7 @@ h2 {
     max-width: 200px;
     margin: 0%;
     position: absolute;
-    bottom: 29px;
+    bottom: 25px;
     right: 690px;
 }
 
@@ -97,7 +101,7 @@ h2 {
     background-color: #488000;
     color: #FFF;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 
